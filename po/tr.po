@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: speech-dispatcher 0.12.0-rc3\n"
 "Report-Msgid-Bugs-To: speechd-discuss@nongnu.org\n"
-"POT-Creation-Date: 2025-02-23 22:18+0100\n"
+"POT-Creation-Date: 2026-05-04 03:36+0200\n"
 "PO-Revision-Date: 2024-09-09 09:09+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/speech-"
@@ -133,12 +133,12 @@ msgstr "Hata ayıklama bilgilerini $TMPDIR/%s içine yazdır\n"
 msgid "if TMPDIR is exported, otherwise to /tmp/%s\n"
 msgstr "TMPDIR ayarlanmamışsa /tmp/%s kullanılır\n"
 
-#: src/server/options.c:113 src/clients/say/options.c:171
+#: src/server/options.c:113 src/clients/say/options.c:172
 #, c-format
 msgid "Print this info\n"
 msgstr "Bu bilgileri yazdır\n"
 
-#: src/server/options.c:115 src/clients/say/options.c:174
+#: src/server/options.c:115 src/clients/say/options.c:175
 #, c-format
 msgid ""
 "Please report bugs to %s\n"
@@ -147,7 +147,7 @@ msgstr ""
 "Lütfen hataları %s adresine bildirin\n"
 "\n"
 
-#: src/server/options.c:121 src/clients/say/options.c:181
+#: src/server/options.c:121 src/clients/say/options.c:182
 #: src/api/python/speechd_config/config.py:174
 #, c-format, python-format
 msgid ""
@@ -179,104 +179,111 @@ msgstr ""
 #: src/clients/say/options.c:68
 #, c-format
 msgid ""
+"note that unless -w is given, %s does not wait for speech completion\n"
+"\n"
+msgstr ""
+
+#: src/clients/say/options.c:69
+#, c-format
+msgid ""
 "Usage: %s [options] \"some text\"\n"
 "\n"
 msgstr ""
 "Kullanım: %s [seçenekler] \"okunacak metin\"\n"
 "\n"
 
-#: src/clients/say/options.c:70
+#: src/clients/say/options.c:71
 #, c-format
 msgid "Options:\n"
 msgstr "Seçenekler:\n"
 
-#: src/clients/say/options.c:72
+#: src/clients/say/options.c:73
 #, c-format
 msgid "Set the rate of the speech\n"
 msgstr "Konuşma hızını ayarla\n"
 
-#: src/clients/say/options.c:74 src/clients/say/options.c:79
-#: src/clients/say/options.c:84 src/clients/say/options.c:89
+#: src/clients/say/options.c:75 src/clients/say/options.c:80
+#: src/clients/say/options.c:85 src/clients/say/options.c:90
 #, c-format
 msgid "(between %+d and %+d, default: %d)\n"
 msgstr "(%+d ve %+d arasında, öntanımlı: %d)\n"
 
-#: src/clients/say/options.c:77
+#: src/clients/say/options.c:78
 #, c-format
 msgid "Set the pitch of the speech\n"
 msgstr "Konuşma perdesini ayarla\n"
 
-#: src/clients/say/options.c:82
+#: src/clients/say/options.c:83
 #, c-format
 msgid "Set the pitch range of the speech\n"
 msgstr "Konuşma perde aralığını ayarla\n"
 
-#: src/clients/say/options.c:87
+#: src/clients/say/options.c:88
 #, c-format
 msgid "Set the volume (intensity) of the speech\n"
 msgstr "Konuşma ses seviyesini (yoğunluğunu) ayarla\n"
 
-#: src/clients/say/options.c:92
+#: src/clients/say/options.c:93
 #, c-format
 msgid "Set the output module\n"
 msgstr "Çıktı modülünü ayarla\n"
 
-#: src/clients/say/options.c:95
+#: src/clients/say/options.c:96
 #, c-format
 msgid "Get the list of output modules\n"
 msgstr "Çıktı modüllerinin listesini yazdır\n"
 
-#: src/clients/say/options.c:98
+#: src/clients/say/options.c:99
 #, c-format
 msgid "Play the sound icon\n"
 msgstr "Ses simgesini oynat\n"
 
-#: src/clients/say/options.c:101
+#: src/clients/say/options.c:102
 #, c-format
 msgid "Set the language (ISO code)\n"
 msgstr "Dili ayarla (ISO kodu)\n"
 
-#: src/clients/say/options.c:104
+#: src/clients/say/options.c:105
 #, c-format
 msgid "Set the preferred voice type\n"
 msgstr "Tercih edilen ses türünü ayarla\n"
 
-#: src/clients/say/options.c:109
+#: src/clients/say/options.c:110
 #, c-format
 msgid "Get the list of synthesis voices\n"
 msgstr "Konuşma seslerinin listesini yazdır\n"
 
-#: src/clients/say/options.c:112
+#: src/clients/say/options.c:113
 #, c-format
 msgid "Set the synthesis voice\n"
 msgstr "Konuşma sesini ayarla\n"
 
-#: src/clients/say/options.c:115
+#: src/clients/say/options.c:116
 #, c-format
 msgid "Speak the character\n"
 msgstr "Karakteri oku\n"
 
-#: src/clients/say/options.c:118
+#: src/clients/say/options.c:119
 #, c-format
 msgid "Speak the key\n"
 msgstr "Tuşu oku\n"
 
-#: src/clients/say/options.c:121
+#: src/clients/say/options.c:122
 #, c-format
 msgid "Set the punctuation mode\n"
 msgstr "Noktalama modunu ayarla\n"
 
-#: src/clients/say/options.c:125
+#: src/clients/say/options.c:126
 #, c-format
 msgid "Spell the message\n"
 msgstr "Mesajı hecele\n"
 
-#: src/clients/say/options.c:128
+#: src/clients/say/options.c:129
 #, c-format
 msgid "Set SSML mode on (default: off)\n"
 msgstr "SSML modunu aç (öntanımlı: kapalı)\n"
 
-#: src/clients/say/options.c:132
+#: src/clients/say/options.c:133
 #, c-format
 msgid ""
 "Read text to be spoken on stdin, write it on stdout unchanged, and the\n"
@@ -285,17 +292,17 @@ msgstr ""
 "Konuşulacak metni standart girdiden oku, değiştirmeden standart\n"
 "çıktıya yaz ve Speech Dispatcher aracılığıyla konuş.\n"
 
-#: src/clients/say/options.c:136
+#: src/clients/say/options.c:137
 #, c-format
 msgid "Set priority of the message "
 msgstr "Mesajın önceliğini ayarla "
 
-#: src/clients/say/options.c:140
+#: src/clients/say/options.c:141
 #, c-format
 msgid "default: %s)\n"
 msgstr "öntanımlı: %s)\n"
 
-#: src/clients/say/options.c:143
+#: src/clients/say/options.c:144
 #, c-format
 msgid ""
 "Set the application name used to establish\n"
@@ -304,12 +311,12 @@ msgstr ""
 "Bağlantı kurmak için kullanılan uygulama adını\n"
 "%1$sbelirtilen dizge değerine ayarla\n"
 
-#: src/clients/say/options.c:147 src/clients/say/options.c:154
+#: src/clients/say/options.c:148 src/clients/say/options.c:155
 #, c-format
 msgid "(default: %s)\n"
 msgstr "(öntanımlı: %s)\n"
 
-#: src/clients/say/options.c:150
+#: src/clients/say/options.c:151
 #, c-format
 msgid ""
 "Set the connection name used to establish\n"
@@ -318,37 +325,37 @@ msgstr ""
 "Bağlantı kurmak için kullanılan bağlantı adını\n"
 "%1$sbelirtilen dizge değerine ayarla\n"
 
-#: src/clients/say/options.c:158
+#: src/clients/say/options.c:159
 #, c-format
 msgid "Wait till the message is spoken or discarded\n"
 msgstr "Mesaj okunana veya atılana kadar bekle\n"
 
-#: src/clients/say/options.c:161
+#: src/clients/say/options.c:162
 #, c-format
 msgid "Stop speaking the message being spoken\n"
 msgstr "Okunan mesajı okumayı durdur\n"
 
-#: src/clients/say/options.c:164
+#: src/clients/say/options.c:165
 #, c-format
 msgid "Cancel all messages\n"
 msgstr "Tüm mesajları iptal et\n"
 
-#: src/clients/say/options.c:168
+#: src/clients/say/options.c:169
 #, c-format
 msgid "Print version and copyright info\n"
 msgstr "Sürüm ve telif hakkı bilgilerini yazdır\n"
 
-#: src/clients/say/options.c:193
+#: src/clients/say/options.c:194
 #, c-format
 msgid "Syntax error or bad parameter!\n"
 msgstr "Söz dizimi hatası veya yanlış parametre!\n"
 
-#: src/clients/say/options.c:204
+#: src/clients/say/options.c:205
 #, c-format
 msgid "Missing argument!\n"
 msgstr "Eksik argüman!\n"
 
-#: src/clients/say/options.c:305
+#: src/clients/say/options.c:306
 #, c-format
 msgid "Unrecognized option\n"
 msgstr "Bilinmeyen seçenek\n"

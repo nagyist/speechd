@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: speech-dispatcher 0.10.1-19-g3194b-dirty\n"
 "Report-Msgid-Bugs-To: speechd-discuss@nongnu.org\n"
-"POT-Creation-Date: 2025-02-23 22:18+0100\n"
+"POT-Creation-Date: 2026-05-04 03:36+0200\n"
 "PO-Revision-Date: 2021-01-10 01:32+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/speech-"
@@ -134,12 +134,12 @@ msgstr "Send feilsporingsinformasjon til TMPDIR/%s\n"
 msgid "if TMPDIR is exported, otherwise to /tmp/%s\n"
 msgstr "Hvis TMPDIR eksporteres, ellers til /tmp/%s\n"
 
-#: src/server/options.c:113 src/clients/say/options.c:171
+#: src/server/options.c:113 src/clients/say/options.c:172
 #, c-format
 msgid "Print this info\n"
 msgstr "Skriv ut denne infoen\n"
 
-#: src/server/options.c:115 src/clients/say/options.c:174
+#: src/server/options.c:115 src/clients/say/options.c:175
 #, c-format
 msgid ""
 "Please report bugs to %s\n"
@@ -148,7 +148,7 @@ msgstr ""
 "Innrapporter feil til %s\n"
 "\n"
 
-#: src/server/options.c:121 src/clients/say/options.c:181
+#: src/server/options.c:121 src/clients/say/options.c:182
 #: src/api/python/speechd_config/config.py:174
 #, fuzzy, c-format, python-format
 msgid ""
@@ -178,121 +178,128 @@ msgstr ""
 #: src/clients/say/options.c:68
 #, c-format
 msgid ""
+"note that unless -w is given, %s does not wait for speech completion\n"
+"\n"
+msgstr ""
+
+#: src/clients/say/options.c:69
+#, c-format
+msgid ""
 "Usage: %s [options] \"some text\"\n"
 "\n"
 msgstr ""
 "Bruk: %s [alternativer \"tekst her\"\n"
 "\n"
 
-#: src/clients/say/options.c:70
+#: src/clients/say/options.c:71
 #, c-format
 msgid "Options:\n"
 msgstr "Alternativer:\n"
 
-#: src/clients/say/options.c:72
+#: src/clients/say/options.c:73
 #, c-format
 msgid "Set the rate of the speech\n"
 msgstr "Sett talehastighet\n"
 
-#: src/clients/say/options.c:74 src/clients/say/options.c:79
-#: src/clients/say/options.c:84 src/clients/say/options.c:89
+#: src/clients/say/options.c:75 src/clients/say/options.c:80
+#: src/clients/say/options.c:85 src/clients/say/options.c:90
 #, c-format
 msgid "(between %+d and %+d, default: %d)\n"
 msgstr "(mellom %+d og %+d, forvalg: %d)\n"
 
-#: src/clients/say/options.c:77
+#: src/clients/say/options.c:78
 #, fuzzy, c-format
 msgid "Set the pitch of the speech\n"
 msgstr "Angi tonehøyde for tale\n"
 
-#: src/clients/say/options.c:82
+#: src/clients/say/options.c:83
 #, fuzzy, c-format
 msgid "Set the pitch range of the speech\n"
 msgstr "Angi bredden av stemmeregisteret\n"
 
-#: src/clients/say/options.c:87
+#: src/clients/say/options.c:88
 #, c-format
 msgid "Set the volume (intensity) of the speech\n"
 msgstr "Sett lydstyrken (intensiteten) for tale\n"
 
-#: src/clients/say/options.c:92
+#: src/clients/say/options.c:93
 #, c-format
 msgid "Set the output module\n"
 msgstr "Sett utgangsmodul\n"
 
-#: src/clients/say/options.c:95
+#: src/clients/say/options.c:96
 #, c-format
 msgid "Get the list of output modules\n"
 msgstr "Hent liste over utgangsmoduler\n"
 
-#: src/clients/say/options.c:98
+#: src/clients/say/options.c:99
 #, c-format
 msgid "Play the sound icon\n"
 msgstr "Spill av lydikonet\n"
 
-#: src/clients/say/options.c:101
+#: src/clients/say/options.c:102
 #, c-format
 msgid "Set the language (ISO code)\n"
 msgstr "Sett språket (ISO-kode)\n"
 
-#: src/clients/say/options.c:104
+#: src/clients/say/options.c:105
 #, c-format
 msgid "Set the preferred voice type\n"
 msgstr "Sett foretrukken stemmetype\n"
 
-#: src/clients/say/options.c:109
+#: src/clients/say/options.c:110
 #, c-format
 msgid "Get the list of synthesis voices\n"
 msgstr "Hent listen over talesyntesestemmer\n"
 
-#: src/clients/say/options.c:112
+#: src/clients/say/options.c:113
 #, c-format
 msgid "Set the synthesis voice\n"
 msgstr "Sett talesyntese-stemme\n"
 
-#: src/clients/say/options.c:115
+#: src/clients/say/options.c:116
 #, fuzzy, c-format
 msgid "Speak the character\n"
 msgstr "Uttal tegnet\n"
 
-#: src/clients/say/options.c:118
+#: src/clients/say/options.c:119
 #, fuzzy, c-format
 msgid "Speak the key\n"
 msgstr "Uttal nøkkelen\n"
 
-#: src/clients/say/options.c:121
+#: src/clients/say/options.c:122
 #, c-format
 msgid "Set the punctuation mode\n"
 msgstr "Sett tegnsettingsmodus\n"
 
-#: src/clients/say/options.c:125
+#: src/clients/say/options.c:126
 #, c-format
 msgid "Spell the message\n"
 msgstr "Stav meldingen\n"
 
-#: src/clients/say/options.c:128
+#: src/clients/say/options.c:129
 #, c-format
 msgid "Set SSML mode on (default: off)\n"
 msgstr "Sett SSML-modus på (forvalg: av)\n"
 
-#: src/clients/say/options.c:132
+#: src/clients/say/options.c:133
 #, c-format
 msgid ""
 "Read text to be spoken on stdin, write it on stdout unchanged, and the\n"
 "corresponding speech through Speech Dispatcher.\n"
 msgstr ""
 
-#: src/clients/say/options.c:136
+#: src/clients/say/options.c:137
 #, c-format
 msgid "Set priority of the message "
 msgstr "Sett prioritet for meldingen "
 
-#: src/clients/say/options.c:140
+#: src/clients/say/options.c:141
 #, c-format
 msgid "default: %s)\n"
 msgstr "forvalg: %s)\n"
 
-#: src/clients/say/options.c:143
+#: src/clients/say/options.c:144
 #, fuzzy, c-format
 msgid ""
 "Set the application name used to establish\n"
@@ -301,12 +308,12 @@ msgstr ""
 "Sett programnavn brukt til å etablere\n"
 "%1$skoblingen til angitt strengverdi\n"
 
-#: src/clients/say/options.c:147 src/clients/say/options.c:154
+#: src/clients/say/options.c:148 src/clients/say/options.c:155
 #, c-format
 msgid "(default: %s)\n"
 msgstr "(forvalg: %s)\n"
 
-#: src/clients/say/options.c:150
+#: src/clients/say/options.c:151
 #, fuzzy, c-format
 msgid ""
 "Set the connection name used to establish\n"
@@ -315,37 +322,37 @@ msgstr ""
 "Sett tilkoblingsnavnet brukt til å etablere\n"
 "%1$skoblingen til angitt strengverdi\n"
 
-#: src/clients/say/options.c:158
+#: src/clients/say/options.c:159
 #, c-format
 msgid "Wait till the message is spoken or discarded\n"
 msgstr "Vent til meldingen er sagt eller avslått\n"
 
-#: src/clients/say/options.c:161
+#: src/clients/say/options.c:162
 #, fuzzy, c-format
 msgid "Stop speaking the message being spoken\n"
 msgstr "Stopp den meldingen som blir sagt\n"
 
-#: src/clients/say/options.c:164
+#: src/clients/say/options.c:165
 #, c-format
 msgid "Cancel all messages\n"
 msgstr "Kanseller alle meldinger\n"
 
-#: src/clients/say/options.c:168
+#: src/clients/say/options.c:169
 #, c-format
 msgid "Print version and copyright info\n"
 msgstr "Skriv ut versjon- og opphavsrettinfo\n"
 
-#: src/clients/say/options.c:193
+#: src/clients/say/options.c:194
 #, c-format
 msgid "Syntax error or bad parameter!\n"
 msgstr "Syntaksfeil eller feilaktig parameter!\n"
 
-#: src/clients/say/options.c:204
+#: src/clients/say/options.c:205
 #, c-format
 msgid "Missing argument!\n"
 msgstr "Manglende argument!\n"
 
-#: src/clients/say/options.c:305
+#: src/clients/say/options.c:306
 #, c-format
 msgid "Unrecognized option\n"
 msgstr "Ugjenkjent alternativ\n"

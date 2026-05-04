@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: speech-dispatcher 0.10.1-19-g3194b-dirty\n"
 "Report-Msgid-Bugs-To: speechd-discuss@nongnu.org\n"
-"POT-Creation-Date: 2025-02-23 22:18+0100\n"
+"POT-Creation-Date: 2026-05-04 03:36+0200\n"
 "PO-Revision-Date: 2025-02-07 22:02+0000\n"
 "Last-Translator: Bruno Fragoso <darth_signa@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/speech-"
@@ -133,12 +133,12 @@ msgstr "Emite info de depuração para $TMPDIR/%s\n"
 msgid "if TMPDIR is exported, otherwise to /tmp/%s\n"
 msgstr "se TMPDIR for exportado; senão para /tmp/%s\n"
 
-#: src/server/options.c:113 src/clients/say/options.c:171
+#: src/server/options.c:113 src/clients/say/options.c:172
 #, c-format
 msgid "Print this info\n"
 msgstr "Exibe estas informações\n"
 
-#: src/server/options.c:115 src/clients/say/options.c:174
+#: src/server/options.c:115 src/clients/say/options.c:175
 #, c-format
 msgid ""
 "Please report bugs to %s\n"
@@ -147,7 +147,7 @@ msgstr ""
 "Relate erros para %s\n"
 "\n"
 
-#: src/server/options.c:121 src/clients/say/options.c:181
+#: src/server/options.c:121 src/clients/say/options.c:182
 #: src/api/python/speechd_config/config.py:174
 #, c-format, python-format
 msgid ""
@@ -178,104 +178,111 @@ msgstr ""
 #: src/clients/say/options.c:68
 #, c-format
 msgid ""
+"note that unless -w is given, %s does not wait for speech completion\n"
+"\n"
+msgstr ""
+
+#: src/clients/say/options.c:69
+#, c-format
+msgid ""
 "Usage: %s [options] \"some text\"\n"
 "\n"
 msgstr ""
 "Uso: %s [opções] “algum texto”\n"
 "\n"
 
-#: src/clients/say/options.c:70
+#: src/clients/say/options.c:71
 #, c-format
 msgid "Options:\n"
 msgstr "Opções:\n"
 
-#: src/clients/say/options.c:72
+#: src/clients/say/options.c:73
 #, c-format
 msgid "Set the rate of the speech\n"
 msgstr "Define a taxa da fala\n"
 
-#: src/clients/say/options.c:74 src/clients/say/options.c:79
-#: src/clients/say/options.c:84 src/clients/say/options.c:89
+#: src/clients/say/options.c:75 src/clients/say/options.c:80
+#: src/clients/say/options.c:85 src/clients/say/options.c:90
 #, c-format
 msgid "(between %+d and %+d, default: %d)\n"
 msgstr "(entre %+d e %+d, predefinição: %d)\n"
 
-#: src/clients/say/options.c:77
+#: src/clients/say/options.c:78
 #, c-format
 msgid "Set the pitch of the speech\n"
 msgstr "Defina o tom da fala\n"
 
-#: src/clients/say/options.c:82
+#: src/clients/say/options.c:83
 #, c-format
 msgid "Set the pitch range of the speech\n"
 msgstr "Define o intervalo de tons da fala\n"
 
-#: src/clients/say/options.c:87
+#: src/clients/say/options.c:88
 #, c-format
 msgid "Set the volume (intensity) of the speech\n"
 msgstr "Define o volume (intensidade) da fala\n"
 
-#: src/clients/say/options.c:92
+#: src/clients/say/options.c:93
 #, c-format
 msgid "Set the output module\n"
 msgstr "Define o módulo de saída\n"
 
-#: src/clients/say/options.c:95
+#: src/clients/say/options.c:96
 #, c-format
 msgid "Get the list of output modules\n"
 msgstr "Obtém a lista de módulos de saída\n"
 
-#: src/clients/say/options.c:98
+#: src/clients/say/options.c:99
 #, c-format
 msgid "Play the sound icon\n"
 msgstr "Reproduz o ícone de som\n"
 
-#: src/clients/say/options.c:101
+#: src/clients/say/options.c:102
 #, c-format
 msgid "Set the language (ISO code)\n"
 msgstr "Define o idioma (código ISO)\n"
 
-#: src/clients/say/options.c:104
+#: src/clients/say/options.c:105
 #, c-format
 msgid "Set the preferred voice type\n"
 msgstr "Define o tipo de voz preferido\n"
 
-#: src/clients/say/options.c:109
+#: src/clients/say/options.c:110
 #, c-format
 msgid "Get the list of synthesis voices\n"
 msgstr "Obtenha a lista de vozes de síntese\n"
 
-#: src/clients/say/options.c:112
+#: src/clients/say/options.c:113
 #, c-format
 msgid "Set the synthesis voice\n"
 msgstr "Define a voz de síntese\n"
 
-#: src/clients/say/options.c:115
+#: src/clients/say/options.c:116
 #, c-format
 msgid "Speak the character\n"
 msgstr "Fala a palavra\n"
 
-#: src/clients/say/options.c:118
+#: src/clients/say/options.c:119
 #, c-format
 msgid "Speak the key\n"
 msgstr "Fala a tecla\n"
 
-#: src/clients/say/options.c:121
+#: src/clients/say/options.c:122
 #, c-format
 msgid "Set the punctuation mode\n"
 msgstr "Define o modo de pontuação\n"
 
-#: src/clients/say/options.c:125
+#: src/clients/say/options.c:126
 #, c-format
 msgid "Spell the message\n"
 msgstr "Pronuncia a mensagem\n"
 
-#: src/clients/say/options.c:128
+#: src/clients/say/options.c:129
 #, c-format
 msgid "Set SSML mode on (default: off)\n"
 msgstr "Ativa o modo SSML (predefinição: desligado)\n"
 
-#: src/clients/say/options.c:132
+#: src/clients/say/options.c:133
 #, c-format
 msgid ""
 "Read text to be spoken on stdin, write it on stdout unchanged, and the\n"
@@ -284,17 +291,17 @@ msgstr ""
 "Lê o texto a ser ditado em stdin, escreve-o sem alterações em stdout, e o\n"
 "texto correspondente através de Speech Dispatcher.\n"
 
-#: src/clients/say/options.c:136
+#: src/clients/say/options.c:137
 #, c-format
 msgid "Set priority of the message "
 msgstr "Define a prioridade da mensagem "
 
-#: src/clients/say/options.c:140
+#: src/clients/say/options.c:141
 #, c-format
 msgid "default: %s)\n"
 msgstr "predefinição %s)\n"
 
-#: src/clients/say/options.c:143
+#: src/clients/say/options.c:144
 #, c-format
 msgid ""
 "Set the application name used to establish\n"
@@ -303,12 +310,12 @@ msgstr ""
 "Define o nome da aplicação para estabelecer\n"
 "%1$sa conexão para o valor da cadeia especificada\n"
 
-#: src/clients/say/options.c:147 src/clients/say/options.c:154
+#: src/clients/say/options.c:148 src/clients/say/options.c:155
 #, c-format
 msgid "(default: %s)\n"
 msgstr "(predefinição: %s)\n"
 
-#: src/clients/say/options.c:150
+#: src/clients/say/options.c:151
 #, c-format
 msgid ""
 "Set the connection name used to establish\n"
@@ -317,37 +324,37 @@ msgstr ""
 "Define o nome da conexão para estabelecer\n"
 "%1$sa conexão para o valor da cadeia especificada\n"
 
-#: src/clients/say/options.c:158
+#: src/clients/say/options.c:159
 #, c-format
 msgid "Wait till the message is spoken or discarded\n"
 msgstr "Aguarda até a mensagem ser falada ou descartada\n"
 
-#: src/clients/say/options.c:161
+#: src/clients/say/options.c:162
 #, c-format
 msgid "Stop speaking the message being spoken\n"
 msgstr "Para de falar a mensagem a ser falada\n"
 
-#: src/clients/say/options.c:164
+#: src/clients/say/options.c:165
 #, c-format
 msgid "Cancel all messages\n"
 msgstr "Cancela todas as mensagens\n"
 
-#: src/clients/say/options.c:168
+#: src/clients/say/options.c:169
 #, c-format
 msgid "Print version and copyright info\n"
 msgstr "Exibe informações de versão e de copyright\n"
 
-#: src/clients/say/options.c:193
+#: src/clients/say/options.c:194
 #, c-format
 msgid "Syntax error or bad parameter!\n"
 msgstr "Erro de sintaxe ou parâmetros inválido!\n"
 
-#: src/clients/say/options.c:204
+#: src/clients/say/options.c:205
 #, c-format
 msgid "Missing argument!\n"
 msgstr "Argumento falta!\n"
 
-#: src/clients/say/options.c:305
+#: src/clients/say/options.c:306
 #, c-format
 msgid "Unrecognized option\n"
 msgstr "Opção não reconhecida\n"

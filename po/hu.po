@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: speech-dispatcher 0.11.1.99\n"
 "Report-Msgid-Bugs-To: speechd-discuss@nongnu.org\n"
-"POT-Creation-Date: 2025-02-23 22:18+0100\n"
+"POT-Creation-Date: 2026-05-04 03:36+0200\n"
 "PO-Revision-Date: 2022-02-17 13:31+0100\n"
 "Last-Translator: Attila Hammer <hammera at pickup dot hu>\n"
 "Language-Team: Hungarian\n"
@@ -147,12 +147,12 @@ msgstr "A hibakövető információk mentése a $TMPDIR/%s könyvtárba\n"
 msgid "if TMPDIR is exported, otherwise to /tmp/%s\n"
 msgstr "ha a TMPDIR-t exportálja, különben a / tmp /% s könyvtárba\n"
 
-#: src/server/options.c:113 src/clients/say/options.c:171
+#: src/server/options.c:113 src/clients/say/options.c:172
 #, c-format
 msgid "Print this info\n"
 msgstr "Megjeleníti az opciók leírását\n"
 
-#: src/server/options.c:115 src/clients/say/options.c:174
+#: src/server/options.c:115 src/clients/say/options.c:175
 #, c-format
 msgid ""
 "Please report bugs to %s\n"
@@ -161,7 +161,7 @@ msgstr ""
 "Ha hibát talált, jelezze a következő címen: %s.\n"
 "\n"
 
-#: src/server/options.c:121 src/clients/say/options.c:181
+#: src/server/options.c:121 src/clients/say/options.c:182
 #: src/api/python/speechd_config/config.py:174
 #, c-format, python-format
 msgid ""
@@ -191,110 +191,117 @@ msgstr ""
 #: src/clients/say/options.c:68
 #, c-format
 msgid ""
+"note that unless -w is given, %s does not wait for speech completion\n"
+"\n"
+msgstr ""
+
+#: src/clients/say/options.c:69
+#, c-format
+msgid ""
 "Usage: %s [options] \"some text\"\n"
 "\n"
 msgstr ""
 "Használat: %s [opciók] \"kimondandó szöveg\"\n"
 "\n"
 
-#: src/clients/say/options.c:70
+#: src/clients/say/options.c:71
 #, c-format
 msgid "Options:\n"
 msgstr "Opciók:\n"
 
-#: src/clients/say/options.c:72
+#: src/clients/say/options.c:73
 #, c-format
 msgid "Set the rate of the speech\n"
 msgstr "A beszédsebesség beállítása\n"
 
-#: src/clients/say/options.c:74 src/clients/say/options.c:79
-#: src/clients/say/options.c:84 src/clients/say/options.c:89
+#: src/clients/say/options.c:75 src/clients/say/options.c:80
+#: src/clients/say/options.c:85 src/clients/say/options.c:90
 #, c-format
 msgid "(between %+d and %+d, default: %d)\n"
 msgstr "(%+d és %+d között, az alapértelmezett érték %d)\n"
 
-#: src/clients/say/options.c:77
+#: src/clients/say/options.c:78
 #, c-format
 msgid "Set the pitch of the speech\n"
 msgstr "A beszéd hangmagasságának beállítása\n"
 
-#: src/clients/say/options.c:82
+#: src/clients/say/options.c:83
 #, c-format
 msgid "Set the pitch range of the speech\n"
 msgstr "A beszéd hangmagasság tartományának beállítása\n"
 
-#: src/clients/say/options.c:87
+#: src/clients/say/options.c:88
 #, c-format
 msgid "Set the volume (intensity) of the speech\n"
 msgstr "A hangerő intenzitásának beállítása\n"
 
-#: src/clients/say/options.c:92
+#: src/clients/say/options.c:93
 #, c-format
 msgid "Set the output module\n"
 msgstr "A kimeneti modul beállítása\n"
 
-#: src/clients/say/options.c:95
+#: src/clients/say/options.c:96
 #, c-format
 msgid "Get the list of output modules\n"
 msgstr "A kimeneti modulok listájának megjelenítése\n"
 
-#: src/clients/say/options.c:98
+#: src/clients/say/options.c:99
 #, c-format
 msgid "Play the sound icon\n"
 msgstr "A hangikon lejátszása\n"
 
-#: src/clients/say/options.c:101
+#: src/clients/say/options.c:102
 #, c-format
 msgid "Set the language (ISO code)\n"
 msgstr "A nyelv beállítása (ISO kód alapján)\n"
 
-#: src/clients/say/options.c:104
+#: src/clients/say/options.c:105
 #, c-format
 msgid "Set the preferred voice type\n"
 msgstr "a preferált hangkarakter-típus beállítása\n"
 
-#: src/clients/say/options.c:109
+#: src/clients/say/options.c:110
 #, c-format
 msgid "Get the list of synthesis voices\n"
 msgstr ""
 "A beszédszintetizátor által támogatott\n"
 "hangkarakterek lekérdezése\n"
 
-#: src/clients/say/options.c:112
+#: src/clients/say/options.c:113
 #, c-format
 msgid "Set the synthesis voice\n"
 msgstr ""
 "A beszédszintetizátor által használt\n"
 "hangkarakter beállítása\n"
 
-#: src/clients/say/options.c:115
+#: src/clients/say/options.c:116
 #, c-format
 msgid "Speak the character\n"
 msgstr "Az aktuális karakter kimondása\n"
 
-#: src/clients/say/options.c:118
+#: src/clients/say/options.c:119
 #, c-format
 msgid "Speak the key\n"
 msgstr "A kimondandó billentyű betűztetése\n"
 
-#: src/clients/say/options.c:121
+#: src/clients/say/options.c:122
 #, c-format
 msgid "Set the punctuation mode\n"
 msgstr "A központozási szint beállítása\n"
 
-#: src/clients/say/options.c:125
+#: src/clients/say/options.c:126
 #, c-format
 msgid "Spell the message\n"
 msgstr "A kimondandó szöveg betűztetése\n"
 
-#: src/clients/say/options.c:128
+#: src/clients/say/options.c:129
 #, c-format
 msgid "Set SSML mode on (default: off)\n"
 msgstr ""
 "Az SSML mód bekapcsolása (alapértelmezetten ez a\n"
 "mód ki van kapcsolva)\n"
 
-#: src/clients/say/options.c:132
+#: src/clients/say/options.c:133
 #, c-format
 msgid ""
 "Read text to be spoken on stdin, write it on stdout unchanged, and the\n"
@@ -305,17 +312,17 @@ msgstr ""
 "változatlan formában, majd kimondja a megfelelő beszédszintetizátor "
 "segítségével.\n"
 
-#: src/clients/say/options.c:136
+#: src/clients/say/options.c:137
 #, c-format
 msgid "Set priority of the message "
 msgstr "A kimondandó üzenet prioritásának beállítása "
 
-#: src/clients/say/options.c:140
+#: src/clients/say/options.c:141
 #, c-format
 msgid "default: %s)\n"
 msgstr "Alapértelmezett érték: %s)\n"
 
-#: src/clients/say/options.c:143
+#: src/clients/say/options.c:144
 #, c-format
 msgid ""
 "Set the application name used to establish\n"
@@ -325,12 +332,12 @@ msgstr ""
 "%1$skapcsolatot felépíti\n"
 "%1$sa(z) karakterlánccal.\n"
 
-#: src/clients/say/options.c:147 src/clients/say/options.c:154
+#: src/clients/say/options.c:148 src/clients/say/options.c:155
 #, c-format
 msgid "(default: %s)\n"
 msgstr "(Alapértelmezett érték: %s)\n"
 
-#: src/clients/say/options.c:150
+#: src/clients/say/options.c:151
 #, c-format
 msgid ""
 "Set the connection name used to establish\n"
@@ -339,41 +346,41 @@ msgstr ""
 "A kapcsolat nevének megadása a(z)\n"
 "%1$s karakterlánccal\n"
 
-#: src/clients/say/options.c:158
+#: src/clients/say/options.c:159
 #, c-format
 msgid "Wait till the message is spoken or discarded\n"
 msgstr ""
 "Várakozás addig, amíg a kimondandó szöveg\n"
 "kimondásra került, vagy a beszéd meg nem lett szakítva\n"
 
-#: src/clients/say/options.c:161
+#: src/clients/say/options.c:162
 #, c-format
 msgid "Stop speaking the message being spoken\n"
 msgstr "A szöveg kimondásának megállítása\n"
 
-#: src/clients/say/options.c:164
+#: src/clients/say/options.c:165
 #, c-format
 msgid "Cancel all messages\n"
 msgstr "Minden üzenet kimondásának megszakítása\n"
 
-#: src/clients/say/options.c:168
+#: src/clients/say/options.c:169
 #, c-format
 msgid "Print version and copyright info\n"
 msgstr ""
 "A verziószám és a szerzői jogi\n"
 "információk kiírása\n"
 
-#: src/clients/say/options.c:193
+#: src/clients/say/options.c:194
 #, c-format
 msgid "Syntax error or bad parameter!\n"
 msgstr "Szintaktikai hiba, vagy rosszul megadott paraméter!\n"
 
-#: src/clients/say/options.c:204
+#: src/clients/say/options.c:205
 #, c-format
 msgid "Missing argument!\n"
 msgstr "Hiányzó argumentum!\n"
 
-#: src/clients/say/options.c:305
+#: src/clients/say/options.c:306
 #, c-format
 msgid "Unrecognized option\n"
 msgstr "Ismeretlen kapcsoló\n"
